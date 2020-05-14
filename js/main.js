@@ -120,4 +120,4 @@ tempElement.addEventListener("click", function(){
         tempElement.innerHTML = `${weather.temperature.value}°<span>C</span>`;
         weather.temperature.unit = "celsius"
     }
-});
+});  
