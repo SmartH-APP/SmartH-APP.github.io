@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Smart Home App</title>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body onload="renderTime();">
+<div class="wrapper">
+<div class="content">
+	<img class="wave" src="img/wave.png" alt="">
+	<div class="header__nav">
+		<div class="header__nav-inner">
+			<div class="header__nav-title">
+				<h1>Smart Home App</h1>
+				<p>User: <span>Adilet Murataliev</span></p>
+			</div>
+			
+				<div class="header__nav-ibtn">
+					<span>i</span>
+					<h1>Hey</h1>
+					<p>This is an informative card that will tell you something that's... well, important!</p>
+				</div>
+          
+		</div>   
+	</div>
+	<div class="container">
+		<div id="sha__app" .sha__app class="row">
+			
+			<div class="col-md-6 col-sm-12 sha__app-img">
+				<img src="img/img.svg" alt="">
+			</div>
+
+			<div class="col-md-6 col-sm-12 sha__app-content">
+				<div class="col-12" id="sha__app-bar">
+					<div class="row">
+						<div class="col-12 currentDate">
+							<div class="sha__app-date" id="currentDate"></div>
+						</div>				
+					</div>
+				</div>
+
+
+
+				<div class="row">
+					<div class="col-md-12 col-sm-12 sha__weather">
+
+						<!--  -->
+						<div class="sha__weather-title">
+							Weather
+						</div>
+
+						<!-- /// -->
+						<div class="sha__weather-notification">
+							<p> </p>
+						</div>
+						<!--  -->
+						<div class="sha__weather-container">
+							<div class="sha__weather-icon">
+								<img src="icons/unknown.png" alt="" style="height: 128px; width: 150px">
+							</div>
+							<div class="sha__weather-tempValue">
+								- °<span>c</span>
+							</div>
+							<div class="sha__weather-tempDescription">
+								-
+							</div>
+							<div class="sha__weather-location">
+								-
+							</div>
+						</div>
+						<!--  -->
+
+
+	
+					</div>
+					<!-- <div class="col-md-12 appliances">
+						<div class="appliance">
+       						 <input type="checkbox" name="a" id="a">
+		        				<label for="a">
+		          						<i class="l"></i>
+		          						<strong>Lamp</strong>
+		          						<span data-o="opened" data-c="closed"></span>
+		          						<small></small>
+		       					</label>
+    				 		 </div>
+					</div>
+					<div class="col-md-12 appliances">
+						<div class="appliance">
+       						 <input type="checkbox" name="a" id="a">
+		        				<label for="a">
+		          						<i class="l"></i>
+		          						<strong>Lamp</strong>
+		          						<span data-o="opened" data-c="closed"></span>
+		          						<small></small>
+		       					</label>
+    				 		 </div>
+					</div>
+				</div> -->
+
+
+
+			</div>
+				
+		<div class="appliances col-sm-12 col-sm-12">
+      
+      <div class="appliance">
+        <input type="checkbox" name="a" id="a">
+        <label for="a">
+          <i class="l"></i>
+          <strong>Lamp</strong>
+          <span data-o="opened" data-c="closed"></span>
+          <small></small>
+        </label>
+      </div>
+      
+      <div class="appliance">
+        <input type="checkbox" name="a" id="b">
+        <label for="b">
+          <i class="r"></i>
+          <strong>Router</strong>
+          <span data-o="opened" data-c="closed"></span>
+          <small></small>
+        </label>
+      </div>
+      
+      <div class="appliance">
+        <input type="checkbox" name="a" id="c">
+        <label for="c">
+          <i class="a"></i>
+          <strong>Air</strong>
+          <span data-o="opened" data-c="closed"></span>
+          <small></small>
+        </label>
+      </div>
+      
+      <div class="appliance">
+        <input type="checkbox" name="a" id="d">
+        <label for="d">
+          <i class="f"></i>
+          <strong>Fridge</strong>
+          <span data-o="opened" data-c="closed"></span>
+          <small></small>
+        </label>
+      </div>
+      
+      <div class="m-player">
+        <h2>Shared Devices</h2>
+        <div class="player">
+          <div class="disc"></div>
+          <div class="artist">
+            <p>Hans Zimmer</p>
+            <small>Now We Are Free</small>
+          </div>
+          <!-- <div class="controls">
+            <input type="checkbox" name="a" id="p">
+            <label for="p">
+              <div class="control"></div>
+            </label>
+          </div> -->
+          <audio class="controls" controls=>
+          	<source src="audio/gladiator_17 - Now We Are Free.mp3">
+          </audio>
+        </div>
+      </div>
+      
+    </div>	
+
+
+
+		</div>
+	</div>
+</div>
+<div class="footer">
+	Disignet by Adilet Murataliev<br>
+	<span>© Copyright 2019-2020. All Rights Reserved.</span>k
+</div>
+</div>
+
+	
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
