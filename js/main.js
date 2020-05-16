@@ -121,3 +121,17 @@ tempElement.addEventListener("click", function(){
         weather.temperature.unit = "celsius"
     }
 });  
+
+
+if (localStorage.username) {
+  document.getElementById("username").innerHTML = localStorage.username;
+}
+
+function change_name(){
+  var name = prompt("Enter your name");
+  if (name != null){
+    localStorage.username = name;
+    document.getElementById("username").innerHTML = name;
+     
+  }
+}
