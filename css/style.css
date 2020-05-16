@@ -194,7 +194,7 @@ img{
 .header__nav-title span{
 	color: #000;
 	font-weight: 300;
-	cursor: poiter;
+	cursor: pointer;
 }
 
 .header__nav-ibtn:hover span {
